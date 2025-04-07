@@ -1,0 +1,29 @@
+
+nav {
+    display: fixed;
+    gap: 20px;
+    background-color: #003366;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #003366;
+}
+
+nav a.active {
+    background-color: #2E8B57;
+    color: white;
+}
+.separate {
+    margin-bottom: 5px;
+}

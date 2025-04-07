@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8" lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repair</title>
+    <link rel="stylesheet" href="styles/repairstyles.css">
+    
+    <script src="https://kit.fontawesome.com/db7e1c890b.js" crossorigin="anonymous"></script>
+
+    <style>
+        form{
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        }
+        label{
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input{
+            margin: 5px;
+            padding: 10px 10px;
+            border-radius: 8px;
+            border: 3px groove black;
+        }
+        .separate{
+            margin-bottom: 30px;
+        }
+        textarea{
+            width: 80%;
+            height: 100px;
+            padding: 10px;
+            border-radius: 8px;
+            border: 3px groove black;
+        }
+        .button{
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+   
+    </style>
+    </head>
+<body style="background-color: #f9f9f9;">
+        <h3 style="font-weight: bold;">Fill out this form contact our technician...</h3>
+        <form action="repair.html" method="post">
+            <div class="separate">
+                 <label for="firstname">First Name:</label>
+                 <input type="text" id="name" name="name" required>
+
+                 <label for="secondname">Second Name:</label>
+                 <input type="text" id="secondname" name="secondname" required>
+            </div>
+           <div class="separate">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="separate">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="city">Location:</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+           <div class="separate">
+                <label for="issue">Issue:</label>
+                <textarea id="issue" name="issue" required></textarea>
+           </div>
+            <div >
+                <input type="submit" value="Submit"href="repair.html"class="button">
+                <input type="reset" value="Reset" href="repair.html"class="button">
+
+                <a href="home.html"><i class="fa-solid fa-right-from-bracket" style="font-size: 30px; margin-left: 600px;"></i></a>
+            </div>
+
+            
+        </form>
+      
+</body>
+
+</html>
